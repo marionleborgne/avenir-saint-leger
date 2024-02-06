@@ -4,8 +4,8 @@ import { Background, NavBar } from './components';
 function App() {
   return (
     <div className="App">
-      <Background />
       <NavBar />
+      <Background />
     </div>
   );
 }
