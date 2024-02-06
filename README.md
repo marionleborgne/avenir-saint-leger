@@ -29,6 +29,6 @@ Your app is ready to be deployed!
 
 ### Deploy
 
-Install [Firebase CLI](https://firebase.google.com/docs/cli) if you do not have it already. The name of the firebase project is `st-leger-avenir`. To deploy the site, log into the Firebase site and run this command locally:
+Install [Firebase CLI](https://firebase.google.com/docs/cli) if you do not have it already. The name of the firebase project is `avenir-saint-leger`. To deploy the site, log into the Firebase site and run this command locally:
 
 ```firebase deploy```
