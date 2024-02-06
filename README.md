@@ -1,5 +1,3 @@
-# Avenir Saint Leger
-
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -31,6 +29,6 @@ Your app is ready to be deployed!
 
 ### Deploy
 
-Install [Firebase CLI](https://firebase.google.com/docs/cli) if you do not have it already. The name of the firebase project is `avenir-saint-leger`. To deploy the site, log into Firebase and run this command locally:
+Install [Firebase CLI](https://firebase.google.com/docs/cli) if you do not have it already. The name of the firebase project is `avenir-saint-leger`. To deploy the site, log into Firebase with `freibase login` (you only need to do this once) and run this command locally:
 
-```firebase deploy```
+```npm run deploy```
