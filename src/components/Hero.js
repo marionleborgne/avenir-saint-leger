@@ -3,7 +3,7 @@ import Logo from './Logo';
 const style = {
   position: 'absolute',
   display: 'flex',
-  top: '10vh',
+  top: '8vh',
   justifyContent: 'center',
   width: '100%'
 };
