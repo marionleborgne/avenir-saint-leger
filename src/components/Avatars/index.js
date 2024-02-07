@@ -1,3 +1,1 @@
-import Sandrine from "./Sandrine";
-
-export default () => <div><Sandrine /></div>;
+export { default as Avatars } from './Avatars';
