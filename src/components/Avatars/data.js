@@ -43,7 +43,8 @@ export default [
     summary: 'Tête de liste',
     description: `60 ans, mariée, mère de 4 enfants, j'habite à Saint Léger depuis 29 ans. Ingénieure de formation, j'ai travaillé au Centre de Recherche de Gaz de France pendant 5 ans. J'ai pris la décision de m'arrêter de travailler en 1995 pour me consacrer à ma vie de famille.
     Toujours passionnée par le travail d'équipe, j'ai pris la présidence de l'association Saint Léger Tonic en 2004 (élaboration du dossier de subvention pour la création de la salle de danse du village), puis de l'association Culture et Loisirs en 2010. J'ai pris plaisir à fédérer les personnes autour de projets ambitieux tels que la fête de la pomme, la bourse aux jouets ou le marché de Noël de Saint Léger.
-    J'ai à cœur de rassembler les léodégariens autour de projets pour développer la solidarité au sein de notre village et lui donner le dynamisme qu'il mérite.`
+    J'ai à cœur de rassembler les léodégariens autour de projets pour développer la solidarité au sein de notre village et lui donner le dynamisme qu'il mérite.
+    `
   },
   {
     img: avatars.ALAIN,
@@ -51,7 +52,8 @@ export default [
     summary: '',
     description: `68 ans, habitant St-Léger depuis 1961, en résidence principale depuis 1981. Deux enfants trentenaires et une petite-fille ; retraité depuis 2022.
     Après avoir été publicitaire dans de grandes agences internationales, j'ai fait du conseil en marketing stratégique et des études de marché. En 2010, j'ai basculé vers le monde de la formation où j'ai enseigné puis dirigé un Master de Marketing de la Marque au sein des MSc-MBA du groupe Inseec et en 2012, j'ai pris la Direction de Sup Career, école de commerce en alternance du bac+3 au bac+5. J'ai eu la responsabilité de gérer l'école, d'animer une équipe de 30 permanents, 170 intervenants au service de 1800 étudiants en apprentissage.
-    J'ai le projet de mettre mes compétences de gestion, d'écoute des jeunes et des moins jeunes au service de la population de St-Léger. Je suis très attaché au travail en équipe et à l'écoute des habitants pour préserver les acquis du village et le redynamiser afin de développer ses potentiels qui sont grands.`
+    J'ai le projet de mettre mes compétences de gestion, d'écoute des jeunes et des moins jeunes au service de la population de St-Léger. Je suis très attaché au travail en équipe et à l'écoute des habitants pour préserver les acquis du village et le redynamiser afin de développer ses potentiels qui sont grands.
+    `
   },
   {
     img: avatars.CELINE,
@@ -68,7 +70,7 @@ export default [
     summary: '',
     description: `46 ans, mariée, deux enfants de 15 et 11 ans, qui ont été scolarisés à l'école du village. Ils représentent la 4ème génération de la famille à Saint-Léger-en-Yvelines. C'est tout naturellement que nous avons voulu offrir à nos enfants ce cadre de vie idyllique. Après une première expérience de chargée d'affaires, j'ai développé avec mon mari un commerce de fleurs pendant 12 ans sur Paris. Amoureux de notre village, toujours envie d'entreprendre et de vouloir concilier vie professionnelle et personnelle, nous avons voulu reprendre un restaurant du village. Ce projet n'ayant pu aboutir, mais notre envie de proximité et d'être utile aux autres étant plus grande, nous avons rebondi en créant notre société de services à la personne à Rambouillet, il y a maintenant 5 ans.
     En parallèle de mes projets professionnels, j'ai pu m'épanouir dans le milieu associatif à travers la vice-présidence de l'association des commerçants du “village St Charles” à Paris 15ème pendant 10 ans, et en tant que trésorière de l'association Saint Léger Tonic pendant 4 ans. J'ai pu apprendre comment dynamiser la vie d'un quartier et ses commerces à travers la mise en place d'évènements : fête des mères, fête de la rue, décorations et illuminations de noël, marché de noël …,et tenir la bonne gestion d'une association.
-    Aujourd'hui, je souhaite pleinement m'investir et œuvrer pour notre commune qui m'est chère, avec notre équipe dynamique et bienveillante. Plus particulièrement, certains sujets me tiennent à cœur, entre autres, les affaires sociales afin de mettre en place des services de proximité pour nos aîné(e)s et de lutter contre l'isolement, grâce à de futurs projets intergénérationnels
+    Aujourd'hui, je souhaite pleinement m'investir et œuvrer pour notre commune qui m'est chère, avec notre équipe dynamique et bienveillante. Plus particulièrement, certains sujets me tiennent à cœur, entre autres, les affaires sociales afin de mettre en place des services de proximité pour nos aîné(e)s et de lutter contre l'isolement, grâce à de futurs projets intergénérationnels.
     `
   },
   {
@@ -78,7 +80,8 @@ export default [
     description: `38 ans, mariée, mère de 2 enfants scolarisés à l'école de Saint Léger en Yvelines. 
     Arrivée en 2021 au village,
     Gérante d'un centre de Bien-être, Sport, Santé à Rambouillet.
-    J'aimerais apporter et mettre à disposition  mon savoir-faire afin de dynamiser deux facteurs importants que sont  la jeunesse et le sport, avec une équipe à l'écoute et motivée`
+    J'aimerais apporter et mettre à disposition  mon savoir-faire afin de dynamiser deux facteurs importants que sont  la jeunesse et le sport, avec une équipe à l'écoute et motivée.
+    `
   },
   {
     img: avatars.ERIC,
@@ -119,7 +122,8 @@ export default [
     Ingénieure de formation, je travaille chez Renault où j'ai occupé plusieurs postes de cheffe de projet. 
     Je suis également formée à la facilitation qui permet d'aider des groupes à proposer des idées nouvelles pour résoudre des problématiques.
     Ayant vécu à l'étranger pendant mon enfance, je suis sensible aux différences et à l'intégration de tous.
-    J'aime ce village qui m'a accueilli il y a déjà plus de vingt ans. J'ai été séduite par son charme, son dynamisme et la nature environnante. Je souhaite aider à développer ses atouts et contribuer à ce que chacun s'y sente bien.`
+    J'aime ce village qui m'a accueilli il y a déjà plus de vingt ans. J'ai été séduite par son charme, son dynamisme et la nature environnante. Je souhaite aider à développer ses atouts et contribuer à ce que chacun s'y sente bien.
+    `
   },
   {
     img: avatars.LAURENCE_R,
@@ -127,21 +131,23 @@ export default [
     summary: '',
     description: `55 ans, mariée, 2 enfants. Résidant à Saint Léger depuis 1983
     Clerc de notaire. Investie dans le domaine scolaire. Déléguée de parents d'élèves à Saint Léger, collège De Vivonne à Rambouillet, lycée Bascan à Rambouillet. J'ai également exercé la fonction de Présidente d'une fédération de parents d'élèves
-    Je souhaite partager mon expérience et ma connaissance du village afin de participer activement et efficacement à l'élaboration de projets destinés à l'épanouissement de nos jeunes générations. Enthousiaste à l'idée de rejoindre une équipe solidaire et profondément humaine`
+    Je souhaite partager mon expérience et ma connaissance du village afin de participer activement et efficacement à l'élaboration de projets destinés à l'épanouissement de nos jeunes générations. Enthousiaste à l'idée de rejoindre une équipe solidaire et profondément humaine.
+    `
   },
   {
     img: avatars.LEO,
     name: 'Léo LHOSTE',
     summary: '',
     description: `39 ans, marié et père de deux enfants. Installé à Saint Léger depuis 2018, j'ai été immédiatement séduit par le charme de ce village. Technicien électrique au sein du bureau d'études d'un important groupe de BTP, je ressens le désir profond de contribuer au développement de notre communauté. 
-    Que ce soit en participant aux travaux d'aménagement des espaces publics ou en soutenant une équipe engagée au service des habitants de Saint Léger, je souhaite mettre mes compétences au service de notre collectivité.`
+    Que ce soit en participant aux travaux d'aménagement des espaces publics ou en soutenant une équipe engagée au service des habitants de Saint Léger, je souhaite mettre mes compétences au service de notre collectivité.
+    `
   },
   {
     img: avatars.MARC,
     name: 'Marc MENDOWSKI',
     summary: '',
     description: `60 ans, 3 enfants majeurs, vivant maritalement, ingénieur en mécanique et énergétique de formation, je travaille actuellement en tant que responsable commercial au sein d'un grand groupe international. Je suis installé à Saint Léger depuis 1999 et engagé dans la vie associative communale depuis plus d'une dizaine d'années en tant que président de Saint Léger Tonic. Soucieux du cadre de vie, je souhaite participer à donner à notre village le dynamisme qu'il mérite tout en améliorant les actions  sociales et transgénérationnelles. 
-    Ayant géré des budgets et des équipes tant techniques que commerciales, j'apporte mon expérience et ma capacité à travailler en équipe ainsi que mes compétences en gestion, notamment financière
+    Ayant géré des budgets et des équipes tant techniques que commerciales, j'apporte mon expérience et ma capacité à travailler en équipe ainsi que mes compétences en gestion, notamment financière.
     `
   },
   {
