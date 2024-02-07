@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
-export default function Card({ key, item }) {
+export default ({ key, item }) => {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -61,4 +61,4 @@ export default function Card({ key, item }) {
       </Popover>
     </Grid>
   );
-}
+};
