@@ -1,13 +1,12 @@
 import { Paper, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { isMobile } from 'react-device-detect';
 
 const Item = styled(Paper)(() => ({
   elevation: 2,
   margin: 10,
   padding: 10,
-  width: 200,
-  height: 200,
+  width: 150,
+  height: 150,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
@@ -15,10 +14,9 @@ const Item = styled(Paper)(() => ({
 
 
 export default function BasicCard() {
-  const maxWidth = isMobile ? '100%' : '50vw';
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-      <div style={{ padding: 5, margin: 2, maxWidth }}>
+    <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }}>
+      <div style={{ padding: 5, margin: 2 }}>
         <Typography variant="h6">
           {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
         </Typography>
