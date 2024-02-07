@@ -15,8 +15,8 @@ const Item = styled(Paper)(() => ({
 
 export default function BasicCard() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }}>
-      <div style={{ padding: 5, margin: 2 }}>
+    <div style={{ display: 'flex', justifyContent: 'center', width: '100% ', padding: 5 }}>
+      <div style={{ padding: 5, margin: 2, width: '90vw' }}>
         <Typography variant="h6">
           {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
         </Typography>
