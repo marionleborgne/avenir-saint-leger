@@ -1,1 +1,2 @@
-export { default as Avatars } from './Avatars';
+export { default as Avatars } from './Cards';
+export { default as Popover } from './Popover';

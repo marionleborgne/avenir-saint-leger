@@ -38,7 +38,7 @@ module.exports = {
       'unix'
     ],
     'quotes': [
-      'error',
+      1,
       'single'
     ],
     'semi': [
@@ -47,6 +47,7 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-uses-react': 'off',
-    'react/display-name': 'off'
+    'react/display-name': 'off',
+    'react/prop-types': 'off'
   }
 };
