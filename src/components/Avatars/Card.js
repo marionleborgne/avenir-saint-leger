@@ -55,7 +55,7 @@ export default ({ key, item }) => {
         disableRestoreFocus
       >
         <div style={{ maxWidth: 400, padding: 20 }}>
-          <Typography variant="h4">{name}</Typography>
+          <Typography variant="h4">{item.name}</Typography>
           <Typography sx={{ p: 1 }}>{item.description || ''}</Typography>
         </div>
       </Popover>
