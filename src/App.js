@@ -1,5 +1,6 @@
 import './App.css';
 import { Background, NavBar, Avatars } from './components';
+import theme from './theme';
 
 function App() {
   return (
