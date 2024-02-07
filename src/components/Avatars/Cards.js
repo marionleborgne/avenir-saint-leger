@@ -9,7 +9,6 @@ export default () => (
     <Grid container justifyContent='center' spacing={2}>
       {itemData.map(
         (item, i) => {
-          console.log(item);
           return <Card key={i} item={item} />;
         })}
     </Grid>
