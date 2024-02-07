@@ -1,4 +1,6 @@
-import SANDRINE from '../../assets/avatars/SANDRINE LE BORGNE.jpg';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+
 import ALAIN from '../../assets/avatars/ALAIN ZALMAN.jpg';
 import CELINE from '../../assets/avatars/CELINE BAUDIN.jpg';
 import CHRISTELLE from '../../assets/avatars/CHRISTELLE SAINT-MEULT.jpg';
@@ -15,6 +17,7 @@ import MF from '../../assets/avatars/MARIE FRANÇOISE SELLA.jpg';
 import OLIVIER from '../../assets/avatars/OLIVIER FAIVRE DUBOZ.jpg';
 import RONAN from '../../assets/avatars/RONAN BEZIERS LA FOSSE.jpg';
 import STEPHANE from '../../assets/avatars/STEPHANE VERON.jpg';
+import SANDRINE from '../../assets/avatars/SANDRINE LE BORGNE.jpg';
 
 const avatars = [
   SANDRINE,
@@ -36,6 +39,19 @@ const avatars = [
   STEPHANE
 ];
 
-export default () => avatars.map(
-  (avatar, key) => <img key={key} src={avatar} alt='avatar' style={{ borderRadius: '50%', width: '120px' }} />
+export default () => (
+  <Box sx={{ flexGrow: 1 }} >
+    <Grid container justifyContent='center' spacing={2}>
+      {avatars.map(
+        (avatar, i) => <Grid key={i} style={{padding: 30}}>
+          <img
+            src={avatar}
+            alt={`avatar-${i}`}
+            style={{ borderRadius: '10%', width: 180 }}
+          />
+        </Grid>
+      )}
+    </Grid>
+  </Box>
 );
+
