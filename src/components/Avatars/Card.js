@@ -60,16 +60,5 @@ export default function Card({ key, item }) {
         </div>
       </Popover>
     </Grid>
-    // <div>
-    //   <Typography
-    //   >
-    //     <IconButton
-    //       sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-    //       aria-label={`info about ${name}`}
-    //     >
-    //       <InfoIcon />
-    //     </IconButton>
-    //   </Typography>
-    // </div>
   );
 }
