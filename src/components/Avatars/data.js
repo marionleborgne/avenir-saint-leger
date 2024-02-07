@@ -36,8 +36,6 @@ const avatars = {
   STEPHANE
 };
 
-console.log(avatars);
-
 export default [
   {
     img: avatars.SANDRINE,
