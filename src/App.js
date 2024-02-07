@@ -1,13 +1,19 @@
-import './App.css';
+import { ThemeProvider } from '@mui/material/styles';
+
 import { Background, NavBar, Avatars } from './components';
+import './App.css';
+import theme from './theme';
+
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Background />
-      <Avatars />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <NavBar />
+        <Background />
+        <Avatars />
+      </div>
+    </ThemeProvider>
   );
 }
 
