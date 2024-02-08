@@ -2,9 +2,15 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 
-const sx = { color: '#fff' };
+export const TABS = {
+  home: 'Accueil',
+  program: 'Programme',
+  team: 'Equipe',
+  projects: 'Projets'
+};
 
-export default({activeTabId, onClick}) => {
+export default ({ activeTabId, onClick }) => {
+  const sx = { color: '#fff' };
   return (
     <Box sx={{ width: '100%', position: 'absolute', top: '0', color: 'transparent', display: 'flex', justifyContent: 'center' }}>
       <Tabs
@@ -14,9 +20,9 @@ export default({activeTabId, onClick}) => {
         textColor='secondary'
         indicatorColor='secondary'
       >
-        <Tab key={0} label='Accueil' sx={sx} />
-        <Tab key={1} label='Equipe' sx={sx} />
-        <Tab key={2} label='Programme' sx={sx} />
+        {Object.entries(TABS).map(
+          ([key, label]) => <Tab key={key} label={label} sx={sx} />
+        )}
       </Tabs>
     </Box>
   );
