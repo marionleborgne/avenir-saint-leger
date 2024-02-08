@@ -43,7 +43,7 @@ export default class TopBar extends React.Component {
   listenScrollEvent = () => {
     const y = window.scrollY;
     const navColor = y > 0 ? SCROLLED_NAV_COLOR : DEFAULT_NAV_COLOR;
-    const navOpacity = document.getElementById('logo').getBoundingClientRect().bottom < 0 ? 100 : 0;
+    const navOpacity = y > 0 ? 100 : 0;
 
     this.setState({ navColor, navOpacity });
 
