@@ -27,11 +27,9 @@ export default class TopBar extends React.Component {
    * Also register event listeners (will be removed on component unmount). 
    */
   componentDidMount() {
-    this.TAB_TOPS = {};
+    this.TAB_ELS = {};
     Object.keys(TABS).map(key => {
-      const el = document.getElementById(TABS[key]);
-      const top = el ? el.getBoundingClientRect().top : null;
-      this.TAB_TOPS[key] = top;
+      this.TAB_ELS[key] = document.getElementById(TABS[key]);
     });
     window.addEventListener('scroll', this.listenScrollEvent);
   }
@@ -48,11 +46,12 @@ export default class TopBar extends React.Component {
     this.setState({ navColor, navOpacity });
 
     let activeTabId = 0;
-    for (let tabKey in this.TAB_TOPS) {
-      if (y < this.TAB_TOPS[tabKey] + NAV_BAR_HEIGHT) {
+    for (let tabKey in this.TAB_ELS) {
+      // Don't change: +1 accomodates imperfect browser precision when scrolling to on click events
+      if (this.TAB_ELS[tabKey].getBoundingClientRect().top > NAV_BAR_HEIGHT + 1) {
         break;
       }
-      activeTabId = Object.keys(this.TAB_TOPS).indexOf(tabKey);
+      activeTabId = Object.keys(this.TAB_ELS).indexOf(tabKey);
     }
     this.setState({ activeTabId });
   };
