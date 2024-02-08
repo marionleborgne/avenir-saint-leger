@@ -1,30 +1,28 @@
-import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 
-const sx = { color: '#fff' };
+export const TABS = {
+  home: 'Accueil',
+  team: 'Equipe',
+  projects: 'Projets'
+};
 
-export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
+export default ({ activeTabId, onClick }) => {
+  const sx = { color: '#fff' };
   return (
     <Box sx={{ width: '100%', position: 'absolute', top: '0', color: 'transparent', display: 'flex', justifyContent: 'center' }}>
       <Tabs
-        value={value}
-        onChange={handleChange}
-        aria-label='basic tabs example'
+        value={activeTabId}
+        onChange={onClick}
+        aria-label='navigation'
         textColor='secondary'
         indicatorColor='secondary'
       >
-        <Tab label='ACCUEIL' sx={sx} />
-        <Tab label='EQUIPE' sx={sx} />
-        <Tab label='PROGRAMME' sx={sx} />
+        {Object.entries(TABS).map(
+          ([key, label]) => <Tab key={key} label={label} sx={sx} />
+        )}
       </Tabs>
     </Box>
   );
-}
+};

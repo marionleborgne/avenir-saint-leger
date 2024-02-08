@@ -7,7 +7,7 @@ import itemData from './data';
 
 export default () => (
   <div>
-    <Typography variant="h4" sx={{ margin: 10 }}>Une équipe à votre service</Typography>
+    <Typography variant="h4" sx={{ margin: 10 }}>Projets</Typography>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container justifyContent='center' spacing={2}>
         {itemData.map(
