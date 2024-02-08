@@ -25,7 +25,7 @@ const textAlign = 'center';
 export default function BasicCard() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-      <div style={{ maxWidth: '34em', margin }}>
+      <div style={{ maxWidth: '620px', margin }}>
         <div style={{ textAlign, textJustify: 'inter-word', margin }}>
           <Typography>
             {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
