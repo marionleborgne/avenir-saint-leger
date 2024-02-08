@@ -44,6 +44,7 @@ export default function MouseOverPopover({ name, description }) {
           vertical: 'bottom',
           horizontal: 'left',
         }}
+        disableScrollLock='true'
         transformOrigin={{
           vertical: 'top',
           horizontal: 'left',
