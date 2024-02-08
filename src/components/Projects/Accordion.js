@@ -67,7 +67,7 @@ export default () => {
           onChange={handleChange(`panel${i}`)}
         >
           <AccordionSummary aria-controls={`panel${i}-content`} id={`panel${i}-header`}>
-            <Typography>{title}</Typography>
+            <Typography sx={{ textAlign: 'left' }}>{title}</Typography>
           </AccordionSummary>
           <AccordionDetails sx={{ textAlign: 'left' }}>
             {shortTerm ?
