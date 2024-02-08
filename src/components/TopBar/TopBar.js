@@ -5,6 +5,17 @@ import './index.css';
 
 const DEFAULT_NAV_COLOR = 'transparent';
 const SCROLLED_NAV_COLOR = 'rgba(0,0,0,0.8)';
+const NAV_BAR_HEIGHT = 48;
+
+const scrollIntoViewWithOffset = (el, offset) => {
+  window.scrollTo({
+    behavior: 'smooth',
+    top:
+      el.getBoundingClientRect().top -
+      document.body.getBoundingClientRect().top -
+      offset,
+  });
+};
 
 export default class TopBar extends React.Component {
 
@@ -36,7 +47,7 @@ export default class TopBar extends React.Component {
 
     let activeTabId = 0;
     for (let tabKey in this.TAB_TOPS) {
-      if (y < this.TAB_TOPS[tabKey]) {
+      if (y < this.TAB_TOPS[tabKey] + NAV_BAR_HEIGHT) {
         break;
       }
       activeTabId = Object.keys(this.TAB_TOPS).indexOf(tabKey);
@@ -47,7 +58,7 @@ export default class TopBar extends React.Component {
 
   onClick = (event, activeTabId) => {
     const tabKey = Object.keys(TABS)[activeTabId];
-    document.getElementById(TABS[tabKey]).scrollIntoView({ behavior: 'smooth' });
+    scrollIntoViewWithOffset(document.getElementById(TABS[tabKey]), NAV_BAR_HEIGHT);
     this.setState({ activeTabId });
   };
 

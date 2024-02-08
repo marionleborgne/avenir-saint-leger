@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 
 export const TABS = {
   home: 'Accueil',
-  program: 'Programme',
   team: 'Equipe',
   projects: 'Projets'
 };
