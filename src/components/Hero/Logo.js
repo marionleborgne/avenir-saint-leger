@@ -11,4 +11,4 @@ const style = {
   width: '100%'
 };
 
-export default () => <div style={style}><img src={logo} alt='logo' width='50%' /></div>;
+export default () => <div style={style}><img src={logo} alt='logo' width='50%' id='logo' /></div>;

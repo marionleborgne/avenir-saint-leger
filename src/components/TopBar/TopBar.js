@@ -19,7 +19,7 @@ const scrollIntoViewWithOffset = (el, offset) => {
 
 export default class TopBar extends React.Component {
 
-  state = { navColor: DEFAULT_NAV_COLOR, activeTabId: 0 };
+  state = { navColor: DEFAULT_NAV_COLOR, navOpacity: 0, activeTabId: 0 };
 
   /**
    * Once the component is mounted, calculate the top Y value of all tabs. 
@@ -43,7 +43,9 @@ export default class TopBar extends React.Component {
   listenScrollEvent = () => {
     const y = window.scrollY;
     const navColor = y > 0 ? SCROLLED_NAV_COLOR : DEFAULT_NAV_COLOR;
-    this.setState({ navColor });
+    const navOpacity = document.getElementById('logo').getBoundingClientRect().bottom < 0 ? 100 : 0;
+
+    this.setState({ navColor, navOpacity });
 
     let activeTabId = 0;
     for (let tabKey in this.TAB_TOPS) {
@@ -69,6 +71,7 @@ export default class TopBar extends React.Component {
       <div>
         <nav
           style={{
+            opacity: this.state.navOpacity,
             backgroundColor: this.state.navColor,
             height: '48px',
             transition: 'all 1s'
