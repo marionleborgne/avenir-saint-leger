@@ -55,9 +55,5 @@ export default [
     title: 'Project Example',
     shortTerm: <div>{`Blah blah blah.`}</div>,
     longTerm: <div>{`Bli bli bli bli bli bli bli bli bli bli.`}</div>
-  },
-  {
-    title: 'Project Example',
-
   }
 ];
