@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@mui/material/styles';
 
-import { Background, TopBar, Avatars, Hero, Program, Projects, TABS } from './components';
+import { TopBar, Avatars, Hero, Projects, TABS } from './components';
 import './App.css';
 import theme from './theme';
 
@@ -10,9 +10,7 @@ function App() {
       <div className="App">
         <div id={TABS.home}>
           <TopBar />
-          <Background />
           <Hero />
-          <Program />
         </div>
         <div id={TABS.team}>
           <Avatars />

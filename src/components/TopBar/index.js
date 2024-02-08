@@ -1,2 +1,2 @@
 export { default as TopBar } from './TopBar';
-export { TABS } from "./Tabs";
+export { TABS } from './Tabs';

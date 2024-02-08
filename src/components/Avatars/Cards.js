@@ -1,14 +1,13 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Typography } from '@mui/material';
-import { isMobile } from 'react-device-detect';
 
 import Card from './Card';
 import itemData from './data';
 
 export default () => (
   <div>
-    <Typography variant={isMobile ? "h4" : "h3"} sx={{ margin: 10 }}>Une équipe à votre service</Typography>
+    <Typography variant="h4" sx={{ margin: 10 }}>Une équipe à votre service</Typography>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container justifyContent='center' spacing={2}>
         {itemData.map(
