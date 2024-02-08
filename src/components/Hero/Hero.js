@@ -8,7 +8,7 @@ import Stripes from '../Stripes/Stripes';
 import { SolidHighlight, HighlightContainer } from '../Stripes/SolidHighlight';
 import { isMobile } from 'react-device-detect';
 
-const variant = 'h5';
+const variant = 'h4';
 const fontSize = isMobile? 60 : 90;
 
 export default () => (

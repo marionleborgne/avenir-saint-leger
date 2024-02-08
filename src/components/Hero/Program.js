@@ -39,7 +39,7 @@ export default function BasicCard() {
           </Typography>
         </div>
 
-        <Typography variant='h5' sx={{ margin: 10 }}>
+        <Typography variant='h4' sx={{ margin: 10 }}>
           Nos axes de travail
         </Typography>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>

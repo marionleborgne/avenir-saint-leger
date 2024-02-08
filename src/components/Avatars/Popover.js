@@ -52,7 +52,7 @@ export default function MouseOverPopover({ name, description }) {
         disableRestoreFocus
       >
         <div style={{ maxWidth: 400, padding: 20 }}>
-          <Typography variant='h5'>{name}</Typography>
+          <Typography variant='h4'>{name}</Typography>
           <Typography sx={{ p: 1 }}>{description}</Typography>
         </div>
       </Popover>
