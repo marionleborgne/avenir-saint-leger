@@ -11,14 +11,14 @@ const Item = styled(Paper)(() => ({
   elevation: 2,
   margin: isMobile ? 10 : 20,
   width: isMobile ? 150 : 300,
-  height: isMobile ? 250 : 300,
+  height: isMobile ? 200 : 300,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
 }));
 
 const iconFontSize = isMobile ? 60 : 90;
-const gridIconAlignment = isMobile ? 'start' : 'top';
+const gridIconAlignment = isMobile ? 'center' : 'top';
 const margin = '10px';
 const textAlign = 'center';
 
