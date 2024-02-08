@@ -38,11 +38,11 @@ export default [
     longTerm: ''
   },
   {
-    title: 'Diffusion de l’information',
+    title: {`Diffusion de l'information`},
     shortTerm: (<div>
       <List>
         <Item
-          text={`Panneaux d’affichage numérique`}
+          text={`Panneaux d'affichage numérique`}
         />
         <Item
           text={`Créer un mur numérique pour échanger sur les ressources et les besoins`}
@@ -63,7 +63,7 @@ export default [
           text={`Consultation sur les horaires scolaires et périscolaires`}
         />
         <Item
-          text={`Mise en place d’espaces ludiques peints au sol dans la cour de l’école`}
+          text={`Mise en place d'espaces ludiques peints au sol dans la cour de l'école`}
         />
       </List>
       <div>{`Centre aéré :`}</div>
@@ -72,7 +72,7 @@ export default [
           text={`Renforcer les liens entre le centre aéré et les ressources :`}
         />
         <Item
-          text={`humaines (après-midi jeux de société avec les aînés, intervention de bénévoles pour la découverte d’un sport)`}
+          text={`humaines (après-midi jeux de société avec les aînés, intervention de bénévoles pour la découverte d'un sport)`}
         />
         <Item
           text={`environnementales du village (sorties en forêt avec un guide, visite des jardins partagés, de la miellerie, de la caserne des pompiers …)`}
@@ -81,17 +81,17 @@ export default [
           text={`Mutualiser les sorties avec les autres centres de loisirs des communes avoisinantes`}
         />
         <Item
-          text={`Etude de la plage d’ouverture du centre aéré`}
+          text={`Etude de la plage d'ouverture du centre aéré`}
         />
       </List>
     </div>),
     longTerm: (<div>
       <List>
         <Item
-          text={`Réflexion sur l’agrandissement de la cantine et la création d’une cuisine dans la cantine de l’école pour la transformation des produits sur place`}
+          text={`Réflexion sur l'agrandissement de la cantine et la création d'une cuisine dans la cantine de l'école pour la transformation des produits sur place`}
         />
         <Item
-          text={`Réflexion sur la création d’ un bâtiment dédié au centre de loisirs`}
+          text={`Réflexion sur la création d' un bâtiment dédié au centre de loisirs`}
         />
       </List>
     </div>)
@@ -104,7 +104,7 @@ export default [
           text={`Déplacer certains passages piétons vers des endroits plus sûrs`}
         />
         <Item
-          text={`Mise en place d’éclairage sur les passages piétons`}
+          text={`Mise en place d'éclairage sur les passages piétons`}
         />
         <Item
           text={`Matérialiser les zones de vitesse 30km/h`}
@@ -114,7 +114,7 @@ export default [
     longTerm: (<div>
       <List>
         <Item
-          text={`Réflexions sur l’aménagement des trottoirs et des accès aux établissements publics et commerces pour les personnes à mobilité réduite`}
+          text={`Réflexions sur l'aménagement des trottoirs et des accès aux établissements publics et commerces pour les personnes à mobilité réduite`}
         />
       </List>
     </div>)
@@ -155,16 +155,16 @@ export default [
           text={`Réflexion sur un lieu de rencontre pour les jeunes (voir “nos solidarités”)`}
         />
         <Item
-          text={`Création d’un lieu couvert pour accueillir les randonneurs, cyclistes  et festivités`}
+          text={`Création d'un lieu couvert pour accueillir les randonneurs, cyclistes  et festivités`}
         />
         <Item
-          text={`Consultation en vue de la création d’un complexe multisports vers le terrain de foot`}
+          text={`Consultation en vue de la création d'un complexe multisports vers le terrain de foot`}
         />
       </List>
     </div>)
   },
   {
-    title: 'Création d’un espace de coworking',
+    title: `Création d'un espace de coworking`,
     shortTerm: '',
     longTerm: <div>{`Consultation dans le but de créer un espace de coworking avec un lieu de convivialité intergénérationnel (café, salon …)`}</div>
   },
@@ -175,11 +175,11 @@ export default [
     longTerm: ''
   },
   {
-    title: 'Développer le Centre Communal d’Action Sociale',
+    title: `Développer le Centre Communal d'Action Sociale`,
     shortTerm: (<div>
       <List>
         <Item
-          text={`Coordonner les différents services d’aide existants aux alentours pour les personnes en perte d’autonomie`}
+          text={`Coordonner les différents services d'aide existants aux alentours pour les personnes en perte d'autonomie`}
         />
         <Item
           text={`Créer une fiche où sont répertoriés tous les numéros importants`}
@@ -188,7 +188,7 @@ export default [
           text={`Créer une permanence deux mercredis matin par mois et des visites à domicile sur rendez vous`}
         />
         <Item
-          text={`signature d’une convention avec la CAF pour permettre un accompagnement sur l’élaboration des dossiers et obtenir des subventions`}
+          text={`signature d'une convention avec la CAF pour permettre un accompagnement sur l'élaboration des dossiers et obtenir des subventions`}
         />
         <Item
           text={`Permettre au personnel administratif et technique de suivre des formations`}
@@ -198,27 +198,27 @@ export default [
     longTerm: (<div>
       <List>
         <Item
-          text={`Projet de la création d’un espace de vie social avec un bureau de  permanence multifonction (assistante sociale, écoute jeunes) en partenariat avec la CAF`}
+          text={`Projet de la création d'un espace de vie social avec un bureau de  permanence multifonction (assistante sociale, écoute jeunes) en partenariat avec la CAF`}
         />
         <Item
-          text={`Obtention d’un agrément CAF pour assurer sa pérennisation`}
+          text={`Obtention d'un agrément CAF pour assurer sa pérennisation`}
         />
       </List>
     </div>)
   },
   {
-    title: 'Faire évoluer l’accueil des 3-18 ans',
+    title: `Faire évoluer l'accueil des 3-18 ans`,
     shortTerm: (<div>
       <div>{`Centre aéré :`}</div>
       <List>
         <Item
-          text={`Etude de la plage d’ouverture du centre aéré`}
+          text={`Etude de la plage d'ouverture du centre aéré`}
         />
         <Item
           text={`Renforcer les liens entre le centre aéré et les ressources`}
         />
         <Item
-          text={`humaines (après-midi jeux de société avec les aînés, intervention de bénévoles pour la découverte d’un sport) `}
+          text={`humaines (après-midi jeux de société avec les aînés, intervention de bénévoles pour la découverte d'un sport) `}
         />
         <Item
           text={`environnementales du village (sorties en forêt avec un guide, visite des jardins partagés, de la miellerie, de la caserne des pompiers …)`}
@@ -230,10 +230,10 @@ export default [
       <div>{`Accueil des 11-18ans :`}</div>
       <List>
         <Item
-          text={`Répertorier les diverses solutions  existantes aux alentours (Rambouillet, Auffargis) susceptibles d’accueillir nos jeunes (11-18 ans)`}
+          text={`Répertorier les diverses solutions  existantes aux alentours (Rambouillet, Auffargis) susceptibles d'accueillir nos jeunes (11-18 ans)`}
         />
         <Item
-          text={`Diffuser l’information`}
+          text={`Diffuser l'information`}
         />
         <Item
           text={`Réflexion sur la mutualisation des moyens de transports`}
@@ -243,10 +243,10 @@ export default [
     longTerm: (<div>
       <List>
         <Item
-          text={`Réflexion sur la création d’un nouveau bâtiment dédié au centre de loisirs plus proche de la nature`}
+          text={`Réflexion sur la création d'un nouveau bâtiment dédié au centre de loisirs plus proche de la nature`}
         />
         <Item
-          text={`Réflexion sur la création d’un espace jeune`}
+          text={`Réflexion sur la création d'un espace jeune`}
         />
       </List>
     </div>)
@@ -254,12 +254,12 @@ export default [
   {
     title: 'Diversifier les modes de garde',
     shortTerm: '',
-    longTerm: <div>{`Etude de la création d’une micro-crèche`}</div>
+    longTerm: <div>{`Etude de la création d'une micro-crèche`}</div>
   },
   {
-    title: 'Renforcer l’offre de santé',
-    shortTerm: <div>{`Favoriser l’installation d’un médecin`}</div>,
-    longTerm: <div>{`Préparer l’offre de santé à venir en lien avec les praticiens en exercice ( réflexion sur la création d’une maison de santé)`}</div>
+    title: `Renforcer l'offre de santé`,
+    shortTerm: <div>{`Favoriser l'installation d'un médecin`}</div>,
+    longTerm: <div>{`Préparer l'offre de santé à venir en lien avec les praticiens en exercice ( réflexion sur la création d'une maison de santé)`}</div>
   },
   // Notre environnement
   {
@@ -272,7 +272,7 @@ export default [
     shortTerm: (<div>
       <List>
         <Item
-          text={`Installation de bancs sur l’ensemble du village`}
+          text={`Installation de bancs sur l'ensemble du village`}
         />
         <Item
           text={`Abri bus aux Bruyères`}
@@ -295,17 +295,17 @@ export default [
   },
   {
     title: 'Faciliter les mobilités douces (vélos)',
-    shortTerm: <div>{`Mise en place d’espaces de stationnement `}</div>,
+    shortTerm: <div>{`Mise en place d'espaces de stationnement `}</div>,
     longTerm: <div>{`Etude de la faisabilité de la liaison centre du village / pistes cyclables existantes et centre du village / quartier des Bruyères`}</div>
   },
   {
-    title: 'Arboriser la cour de l’école',
-    shortTerm: <div>{`Plantation d’arbres dans la cour des maternelles (ombrage)`}</div>,
+    title: `Arboriser la cour de l'école`,
+    shortTerm: <div>{`Plantation d'arbres dans la cour des maternelles (ombrage)`}</div>,
     longTerm: ''
   },
   {
     title: 'Mettre en plan le plan vigilance incendie',
-    shortTerm: <div>{`Réalisation et distribution d’un document résumant les diverses conduites à tenir en cas d’incendie`}</div>,
+    shortTerm: <div>{`Réalisation et distribution d'un document résumant les diverses conduites à tenir en cas d'incendie`}</div>,
     longTerm: ''
   },
   {
@@ -317,7 +317,7 @@ export default [
           text={`Etude de la mise en place de radars sonores (motos)`}
         />
         <Item
-          text={`Etude de l’optimisation de la circulation au centre du village`}
+          text={`Etude de l'optimisation de la circulation au centre du village`}
         />
       </List>
     </div>)
@@ -377,19 +377,19 @@ export default [
     subTitle: (<div>
       <List>
         <Item
-          text={`Agence de l’Environnement et de la Maîtrise de l’Energie (ADEME)`}
+          text={`Agence de l'Environnement et de la Maîtrise de l'Energie (ADEME)`}
         />
         <Item
-          text={`Agence Nationale pour l’Amélioration de l’Habitat (ANAH))`}
+          text={`Agence Nationale pour l'Amélioration de l'Habitat (ANAH))`}
         />
         <Item
           text={`Centre National du Développement du Sport (CNDS)`}
         />
         <Item
-          text={`Agence Locale de l’énergie et du climat (ALEC)`}
+          text={`Agence Locale de l'énergie et du climat (ALEC)`}
         />
         <Item
-          text={`Caisse d’allocations familiales ( CAF)`}
+          text={`Caisse d'allocations familiales ( CAF)`}
         />
         <Item
           text={`Parc Naturel Régional de la Haute Vallée de Chevreuse (PNR)`}
