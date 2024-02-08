@@ -18,18 +18,19 @@ const Item = styled(Paper)(() => ({
 }));
 
 const iconFontSize = isMobile ? 60 : 90;
-const margin = 5;
+const gridIconAlignment = isMobile ? 'start' : 'top';
+const margin = '10px';
 
 export default function BasicCard() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-      <div style={{ maxWidth: '50vw' }}>
-        <div style={{ textAlign: 'justify', textJustify: 'inter-word', margin: 10 }}>
-          <Typography >
+      <div style={{ maxWidth: '34em' }}>
+        <div style={{ textAlign: 'justify', textJustify: 'inter-word', margin }}>
+          <Typography>
             {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
           </Typography>
           <br />
-          <Typography >
+          <Typography>
             {`Il faut dynamiser notre commune en respectant son identité et son caractère.
             J'ai le plaisir de vous proposer d'élire une équipe compétente, motivée et engagée.
             Elle est composée de femmes et d'hommes de toutes générations qui ont à cœur de travailler ensemble en développant la participation citoyenne.
@@ -37,18 +38,18 @@ export default function BasicCard() {
           </Typography>
         </div>
 
-        <Typography variant="h4" sx={{ margin: 5 }}>
+        <Typography variant="h4" sx={{ margin }}>
           Nos axes de travail
         </Typography>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <div style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'row' }}>
-            <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
+            <Item style={{ display: 'flex', justifyContent: gridIconAlignment, alignItems: 'top', flexDirection: 'column' }}>
               <CottageIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
                 Renforcer la qualité de vie à Saint-Léger
               </Typography>
             </Item>
-            <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
+            <Item style={{ display: 'flex', justifyContent: gridIconAlignment, alignItems: 'top', flexDirection: 'column' }}>
               <LeafIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
                 Préserver notre environnement
@@ -56,13 +57,13 @@ export default function BasicCard() {
             </Item>
           </div>
           <div style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'row' }}>
-            <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
+            <Item style={{ display: 'flex', justifyContent: gridIconAlignment, alignItems: 'top', flexDirection: 'column' }}>
               <DiversityIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
                 Développer le social
               </Typography>
             </Item>
-            <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
+            <Item style={{ display: 'flex', justifyContent: gridIconAlignment, alignItems: 'top', flexDirection: 'column' }}>
               <SavingsIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
                 Maîtriser les finances en partenariat avec les acteurs territoriaux
