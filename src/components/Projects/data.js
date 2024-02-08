@@ -38,7 +38,7 @@ export default [
     longTerm: ''
   },
   {
-    title: 'Diffusion de linformation',
+    title: `Diffusion de l'information`,
     shortTerm: (
       <List>
         <Item
