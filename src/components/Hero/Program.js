@@ -25,7 +25,7 @@ const textAlign = 'center';
 export default function BasicCard() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-      <div style={{ maxWidth: '45em', margin }}>
+      <div style={{ maxWidth: '45rem', margin }}>
         <div style={{ textAlign, textJustify: 'inter-word', margin }}>
           <Typography>
             {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
@@ -39,7 +39,7 @@ export default function BasicCard() {
           </Typography>
         </div>
 
-        <Typography variant='h4' sx={{ margin: 10 }}>
+        <Typography variant='h4' sx={{ marginTop: 10, marginBottom: 10 }}>
           Nos axes de travail
         </Typography>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
