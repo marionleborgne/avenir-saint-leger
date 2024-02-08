@@ -19,12 +19,13 @@ const Item = styled(Paper)(() => ({
 
 const iconFontSize = isMobile ? 60 : 90;
 const margin = 5;
+const textAlign = 'center';
 
 export default function BasicCard() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-      <div style={{ maxWidth: '50vw' }}>
-        <div style={{ textAlign: 'justify', textJustify: 'inter-word', margin: 10 }}>
+      <div style={{ maxWidth: isMobile? '100vw' : '50vw', margin: 10 }}>
+        <div style={{ textAlign, margin: 10 }}>
           <Typography >
             {`Saint-Léger a su préserver son charme ; aujourd'hui, il doit faire face à de nouveaux défis.`}
           </Typography>
@@ -37,7 +38,7 @@ export default function BasicCard() {
           </Typography>
         </div>
 
-        <Typography variant="h4" sx={{ margin: 5 }}>
+        <Typography variant='h5' sx={{ margin: 5 }}>
           Nos axes de travail
         </Typography>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
@@ -45,7 +46,7 @@ export default function BasicCard() {
             <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
               <CottageIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
-                Renforcer la qualité de vie à Saint-Léger
+                Renforcer la qualité de vie
               </Typography>
             </Item>
             <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
@@ -65,11 +66,11 @@ export default function BasicCard() {
             <Item style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'column' }}>
               <SavingsIcon style={{ fontSize: iconFontSize, margin }} />
               <Typography  sx={{ margin }}>
-                Maîtriser les finances en partenariat avec les acteurs territoriaux
+                Maîtriser les finances
               </Typography>
             </Item>
           </div>
-          <div style={{ textAlign: 'justify', textJustify: 'inter-word', margin: 10 }}>
+          <div style={{ textAlign, margin: 10 }}>
             <Typography >
               {`Ce projet est ambitieux et réaliste. Notre village a un potentiel énorme. Avec vous et en toute transparence, nous pourrons lui offrir la qualité de vie et le dynamisme qu'il mérite.`}
             </Typography>
