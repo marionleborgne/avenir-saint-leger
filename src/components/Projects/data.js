@@ -16,6 +16,7 @@ const Item = ({ text }) => (<ListItem>
 
 export default [
   // Notre qualité de vie
+  // Notre qualité de vie
   {
     title: 'Participation citoyenne',
     shortTerm: (<div>
