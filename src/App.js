@@ -12,11 +12,11 @@ function App() {
           <TopBar />
           <Hero />
         </div>
-        <div id={TABS.team}>
-          <Avatars />
-        </div>
         <div id={TABS.projects}>
           <Projects />
+        </div>
+        <div id={TABS.team}>
+          <Avatars />
         </div>
         <Footer />
       </div>

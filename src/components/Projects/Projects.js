@@ -1,19 +1,22 @@
+import { Typography } from '@mui/material';
 
-import Typography from '@mui/material/Typography';
-
+import ProjectDetails from './ProjectDetails';
+import ProjectsOverview from './ProjectsOverview';
+import IntroStatement from './IntroStatement';
 import Stripes from '../Stripes/Stripes';
 import { SolidHighlight, HighlightContainer } from '../Stripes/SolidHighlight';
-import Accordion from './Accordion';
 
 export default () => (
   <HighlightContainer>
-    <Stripes width='100%' height='200px'/>
+    <Stripes width='100%' height='200px' />
     <SolidHighlight>
-      <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: ' column' }}>
-        <div style={{ maxWidth: '45rem' }}>
-          <Typography variant='h4' sx={{ marginBottom: 5 }}>Notre qualité de vie</Typography>
-          <Accordion />
-        </div>
+      <div style={{ maxWidth: '45rem' }} >
+        <Typography variant='h4' sx={{ margin: 5 }}>
+          Nos axes de travail
+        </Typography>
+        <IntroStatement />
+        <ProjectsOverview />
+        <ProjectDetails />
       </div>
     </SolidHighlight>
   </HighlightContainer>
