@@ -11,7 +11,9 @@ export default () => (
   <HighlightContainer>
     <Stripes width='100%' height='200px' flipped />
     <SolidHighlight>
-      <Typography variant='h4' sx={{ marginTop: 0, marginRight: 10, marginBottom: 5, marginLeft: 10 }}>Une équipe à votre service</Typography>
+      <Typography variant='h4' sx={{ margin: 5 }}>
+        Une équipe à votre service
+      </Typography>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container justifyContent='center' spacing={2}>
           {itemData.map(

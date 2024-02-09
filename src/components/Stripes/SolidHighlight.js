@@ -8,8 +8,7 @@ export const HighlightContainer = styled('div')({
 
 
 export const SolidHighlight = styled('div')({
-  // background: `${highlightColor} -moz-linear-gradient(top, ${highlightColor}, white 45%) -webkit-linear-gradient(top, ${highlightColor}, white 45%) linear-gradient(to bottom, ${highlightColor}, white 45%)`,
-  background: `linear-gradient(to bottom, ${highlightColor}, white 45%)`,
+  background: `linear-gradient(to bottom, ${highlightColor}, white 7rem)`,
   width: '100%',
   display: 'flex',
   flexDirection: 'column',
