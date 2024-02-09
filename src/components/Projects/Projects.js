@@ -1,20 +1,23 @@
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import { Typography } from '@mui/material';
 
-import Card from './Card';
-import itemData from './data';
+import ProjectDetails from './ProjectDetails';
+import ProjectsOverview from './ProjectsOverview';
+import IntroStatement from './IntroStatement';
+import Stripes from '../Stripes/Stripes';
+import { SolidHighlight, HighlightContainer } from '../Stripes/SolidHighlight';
 
 export default () => (
-  <div>
-    <Typography variant='h5' sx={{ margin: 10 }}>Projets</Typography>
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container justifyContent='center' spacing={2}>
-        {itemData.map(
-          (item, i) => {
-            return <Card key={i} item={item} />;
-          })}
-      </Grid>
-    </Box>
-  </div>
+  <HighlightContainer>
+    <Stripes width='100%' height='200px' />
+    <SolidHighlight>
+      <div style={{ maxWidth: '45rem' }} >
+        <Typography variant='h4' sx={{ margin: 5 }}>
+          Nos axes de travail
+        </Typography>
+        <IntroStatement />
+        <ProjectsOverview />
+        <ProjectDetails />
+      </div>
+    </SolidHighlight>
+  </HighlightContainer>
 );

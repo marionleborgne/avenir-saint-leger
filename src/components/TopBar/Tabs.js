@@ -4,8 +4,8 @@ import Box from '@mui/material/Box';
 
 export const TABS = {
   home: 'Accueil',
-  team: 'Equipe',
-  projects: 'Projets'
+  projects: 'Projets',
+  team: 'Equipe'
 };
 
 export default ({ activeTabId, onClick }) => {
