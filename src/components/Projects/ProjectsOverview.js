@@ -23,7 +23,7 @@ const margin = '10px';
 
 export default function BasicCard() {
   return (
-    <div style={{ margin: 5, display: 'flex', justifyContent: 'center', width: '100%' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent: 'top', alignItems: 'top', flexDirection: 'row' }}>
           <Item style={{ display: 'flex', justifyContent: gridIconAlignment, alignItems: 'top', flexDirection: 'column' }}>
