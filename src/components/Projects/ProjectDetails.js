@@ -8,8 +8,9 @@ import Typography from '@mui/material/Typography';
 import BoltIcon from '@mui/icons-material/BoltTwoTone';
 import TrendIcon from '@mui/icons-material/TrendingUpTwoTone';
 
-import projects from './data';
+import data from './data';
 import { Chip } from '@mui/material';
+import { isMobile } from 'react-device-detect';
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -51,7 +52,7 @@ const ShortTerm = () => <Chip icon={<BoltIcon />} label="Court Terme" color='inf
 const LongTerm = () => <Chip icon={<TrendIcon />} label="Long Terme" color='success' sx={{ marginBottom: 2 }} />;
 
 export default () => {
-  const [expanded, setExpanded] = React.useState('panel0');
+  const [expanded, setExpanded] = React.useState(isMobile? null : 'panel-0-0');
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -59,31 +60,51 @@ export default () => {
 
   return (
     <div style={{ margin: '20px' }}>
-      {projects.map((project, i) => {
-        const { title, shortTerm, longTerm } = project;
-        return <Accordion
-          key={i}
-          expanded={expanded === `panel${i}`}
-          onChange={handleChange(`panel${i}`)}
-        >
-          <AccordionSummary aria-controls={`panel${i}-content`} id={`panel${i}-header`}>
-            <Typography sx={{ textAlign: 'left' }}>{title}</Typography>
-          </AccordionSummary>
-          <AccordionDetails sx={{ textAlign: 'left' }}>
-            {shortTerm ?
-              <div>
-                <ShortTerm />
-                {shortTerm}
-              </div> : null}
-            <br />
-            {longTerm ?
-              <div>
-                <LongTerm />
-                {longTerm}
-              </div> : null}
-          </AccordionDetails>
-        </Accordion>;
-      })}
+      {data.map(({ section, icon, projects }, k) => (
+        <div key={k}>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: isMobile? 'column': 'row',
+            marginTop: 30,
+            marginBottom: 30
+          }}>
+            {icon}
+            <Typography variant='h5'>
+              {section}
+            </Typography>
+          </div>
+          {
+            projects.map((project, i) => {
+              const id = `-${k}-${i}`;
+              const { title, shortTerm, longTerm } = project;
+              return <Accordion
+                key={i}
+                expanded={expanded === `panel${id}`}
+                onChange={handleChange(`panel${id}`)}
+              >
+                <AccordionSummary aria-controls={`panel${id}-content`} id={`panel${id}-header`}>
+                  <Typography sx={{ textAlign: 'left' }}>{title}</Typography>
+                </AccordionSummary>
+                <AccordionDetails sx={{ textAlign: 'left' }}>
+                  {shortTerm ?
+                    <div>
+                      <ShortTerm />
+                      {shortTerm}
+                    </div> : null}
+                  <br />
+                  {longTerm ?
+                    <div>
+                      <LongTerm />
+                      {longTerm}
+                    </div> : null}
+                </AccordionDetails>
+              </Accordion>;
+            })
+          }
+        </div>
+      ))}
     </div>
   );
 };

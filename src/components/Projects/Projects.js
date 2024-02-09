@@ -14,8 +14,8 @@ export default () => (
         <Typography variant='h4' sx={{ margin: 5 }}>
           Nos axes de travail
         </Typography>
-        <IntroStatement />
         <ProjectsOverview />
+        <IntroStatement />
         <ProjectDetails />
       </div>
     </SolidHighlight>

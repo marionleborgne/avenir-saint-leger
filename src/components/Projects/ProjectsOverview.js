@@ -11,7 +11,7 @@ const Item = styled(Paper)(() => ({
   elevation: 2,
   margin: isMobile ? 10 : 20,
   width: isMobile ? 150 : 300,
-  height: isMobile ? 150 : 300,
+  height: isMobile ? 200 : 300,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
