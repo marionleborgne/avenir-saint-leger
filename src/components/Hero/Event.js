@@ -7,7 +7,7 @@ const variant = 'h5';
 const fontSize = isMobile ? 60 : 90;
 
 export default () => (
-  <div>
+  <div style={{ marginTop: 50 }}>
     <EventIcon style={{ fontSize }} />
     <Typography variant={variant}>Réunion Publique</Typography>
     <Typography variant={variant}>29 février à 20h</Typography>
