@@ -50,9 +50,9 @@ export default [
     img: avatars.ALAIN,
     name: 'Alain ZALMAN',
     summary: '',
-    description: `68 ans, habitant St-Léger depuis 1961, en résidence principale depuis 1981. Deux enfants trentenaires et une petite-fille ; retraité depuis 2022.
-    Après avoir été publicitaire dans de grandes agences internationales, j'ai fait du conseil en marketing stratégique et des études de marché. En 2010, j'ai basculé vers le monde de la formation où j'ai enseigné puis dirigé un Master de Marketing de la Marque au sein des MSc-MBA du groupe Inseec et en 2012, j'ai pris la Direction de Sup Career, école de commerce en alternance du bac+3 au bac+5. J'ai eu la responsabilité de gérer l'école, d'animer une équipe de 30 permanents, 170 intervenants au service de 1800 étudiants en apprentissage.
-    J'ai le projet de mettre mes compétences de gestion, d'écoute des jeunes et des moins jeunes au service de la population de St-Léger. Je suis très attaché au travail en équipe et à l'écoute des habitants pour préserver les acquis du village et le redynamiser afin de développer ses potentiels qui sont grands.
+    description: `68 ans, habitant St-Léger depuis 1961. Deux enfants et une petite-fille ; retraité depuis 2022.
+    Publicitaire dans de grandes agences internationales, j'ai ensuite fait du conseil en marketing stratégique et des études de marché. En 2010, j'ai basculé vers la formation où j'ai dirigé un Master de Marketing au sein du groupe Inseec. J'ai pris en 2012 la Direction de Sup Career, école de commerce en alternance du bac+3 au bac+5. J'ai eu la responsabilité de gérer l'école, d'animer une équipe de 30 permanents et 170 intervenants, au service de 1800 apprentis.
+    J'ai le projet de mettre mes compétences de gestion, d'écoute des jeunes et des moins jeunes au service des Léodegariens. J'apprécie le travail en équipe et l'écoute des habitants pour préserver les acquis du village et développer ses potentiels qui sont grands.    
     `
   },
   {
@@ -68,9 +68,8 @@ export default [
     img: avatars.CHRISTELLE,
     name: 'Christelle SAINT-MEULT',
     summary: '',
-    description: `46 ans, mariée, deux enfants de 15 et 11 ans, qui ont été scolarisés à l'école du village. Ils représentent la 4ème génération de la famille à Saint-Léger-en-Yvelines. C'est tout naturellement que nous avons voulu offrir à nos enfants ce cadre de vie idyllique. Après une première expérience de chargée d'affaires, j'ai développé avec mon mari un commerce de fleurs pendant 12 ans sur Paris. Amoureux de notre village, toujours envie d'entreprendre et de vouloir concilier vie professionnelle et personnelle, nous avons voulu reprendre un restaurant du village. Ce projet n'ayant pu aboutir, mais notre envie de proximité et d'être utile aux autres étant plus grande, nous avons rebondi en créant notre société de services à la personne à Rambouillet, il y a maintenant 5 ans.
-    En parallèle de mes projets professionnels, j'ai pu m'épanouir dans le milieu associatif à travers la vice-présidence de l'association des commerçants du “village St Charles” à Paris 15ème pendant 10 ans, et en tant que trésorière de l'association Saint Léger Tonic pendant 4 ans. J'ai pu apprendre comment dynamiser la vie d'un quartier et ses commerces à travers la mise en place d'évènements : fête des mères, fête de la rue, décorations et illuminations de noël, marché de noël …,et tenir la bonne gestion d'une association.
-    Aujourd'hui, je souhaite pleinement m'investir et œuvrer pour notre commune qui m'est chère, avec notre équipe dynamique et bienveillante. Plus particulièrement, certains sujets me tiennent à cœur, entre autres, les affaires sociales afin de mettre en place des services de proximité pour nos aîné(e)s et de lutter contre l'isolement, grâce à de futurs projets intergénérationnels.
+    description: `46 ans, mariée, deux enfants. Ils représentent la 4ème génération de la famille à Saint-Léger-en-Yvelines. C'est tout naturellement que nous avons voulu leur offrir ce cadre de vie idyllique. Après une première expérience de chargée d'affaires, j'ai développé avec mon mari un commerce de fleurs pendant 12 ans sur Paris. Amoureux de notre village, toujours envie d'entreprendre et de vouloir concilier vie professionnelle et personnelle et une envie de proximité et d'être utile aux autres, nous avons créé notre société de services à la personne à Rambouillet. En parallèle, j'ai pu m'épanouir dans le milieu associatif à travers la vice-présidence de l'association des commerçants à Paris 15ème pendant 10 ans, et en tant que trésorière de l'association Saint Léger Tonic pendant 4 ans.
+    Aujourd'hui, je souhaite pleinement m'investir et œuvrer pour notre commune qui m'est chère, avec notre équipe dynamique et bienveillante. Plus particulièrement, certains sujets me tiennent à cœur, entre autres, les affaires sociales afin de mettre en place des services de proximité pour nos aîné(e)s et de lutter contre l'isolement.
     `
   },
   {
@@ -185,11 +184,10 @@ export default [
     img: avatars.RONAN,
     name: 'Ronan BEZIERS LA FOSSE',
     summary: '',
-    description: `32 ans, marié et père de deux enfants. Habitant de Saint Léger en Yvelines depuis 2019. 
-    Je suis ingénieur de l'école supérieure du bois de Nantes en spécialité construction. J'occupe actuellement le poste de directeur technique adjoint dans un bureau de contrôle de construction implanté sur l'ensemble du territoire français. Mes missions prioritaires sont l'accompagnement de l'ensemble des collaborateurs sur l'innovation et notamment sur les sujets de construction bio-sourcés, construction en terre-crue, construction hors-site, réemploi, etc… Je suis également présent dans les comités de normalisation pour l'évolution du cadre réglementaire et normatif.  
-    Nous sommes tombés sous le charme de Saint Léger en Yvelines lors de notre première visite et nous avons souhaité nous y installer pour fonder notre famille qui comporte désormais 2 enfants. 
-    Après le charme du premier jour, nous avons appris à connaître un environnement calme et agréable dont la population est ouverte et disponible. Avec l'ensemble de l'équipe, nous souhaitons conserver et améliorer notre cadre de vie tout en dynamisant la commune. Nous souhaitons renforcer les échanges inter-générationnels notamment par la rénovation et la création de lieux d'échanges. Je souhaite mettre mes compétences au service de la commune en s'assurant de la consultation des habitants pour développer les infrastructures  conformes aux besoins réels du village et de ses habitants. 
-    `
+    description: `32 ans, marié, père de deux enfants, habitant de Saint Léger en Yvelines depuis 2019. 
+    Ingénieur en construction durable et innovante, directeur technique adjoint dans un bureau de contrôle national. Mes missions prioritaires sont l'accompagnement de l'ensemble des collaborateurs sur l'innovation et notamment sur les sujets de construction bio-sourcés, construction en terre-crue, construction hors-site, réemploi, etc…
+    Avec l'ensemble de l'équipe, nous souhaitons conserver et améliorer notre cadre de vie tout en dynamisant la commune. Nous souhaitons renforcer les échanges inter-générationnels notamment par la rénovation et la création de lieux d'échanges. Je souhaite mettre mes compétences au service de la commune en s'assurant de la consultation des habitants.
+`
   },
   {
     img: avatars.STEPHANE,
