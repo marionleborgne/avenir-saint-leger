@@ -47,10 +47,6 @@ module.exports = {
       'error',
       'always'
     ],
-    'max-len': [
-      2,
-      { 'code': 90 }
-    ],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-uses-react': 'off',
     'react/display-name': 'off',
