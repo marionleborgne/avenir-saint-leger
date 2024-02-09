@@ -24,5 +24,4 @@ export default () => (
       </Box>
     </SolidHighlight>
   </HighlightContainer>
-
 );

@@ -37,6 +37,7 @@ module.exports = {
       'error',
       'unix'
     ],
+    'eol-last': 2,
     'quotes': [
       1,
       'single',
