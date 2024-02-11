@@ -273,7 +273,7 @@ export default [
         longTerm: ''
       },
       {
-        title: 'Mettre en plan le plan vigilance incendie',
+        title: 'Mettre en place le plan vigilance incendie',
         shortTerm: (
           <List>
             <CheckedItem
@@ -325,16 +325,16 @@ export default [
         shortTerm: (
           <List>
             <CheckedItem
-              text={`Coordonner les différents services d'aide existants aux alentours pour les personnes en perte d'autonomie`}
+              text={`Coordonner les différents services d'aides existants pour les personnes en perte d'autonomie`}
             />
             <CheckedItem
               text={`Créer une fiche où sont répertoriés tous les numéros importants`}
             />
             <CheckedItem
-              text={`Créer une permanence deux mercredis matin par mois et des visites à domicile sur rendez vous`}
+              text={`Créer une permanence deux mercredis matin par mois et des visites à domicile sur rendez-vous`}
             />
             <CheckedItem
-              text={`signature d'une convention avec la CAF pour permettre un accompagnement sur l'élaboration des dossiers et obtenir des subventions`}
+              text={`Signer une convention avec la CAF pour permettre un accompagnement sur l'élaboration des dossiers et obtenir des subventions`}
             />
             <CheckedItem
               text={`Permettre au personnel administratif et technique de suivre des formations`}
@@ -344,7 +344,7 @@ export default [
         longTerm: (
           <List>
             <CheckedItem
-              text={`Projet de la création d'un espace de vie social avec un bureau de  permanence multifonction (assistante sociale, écoute jeunes) en partenariat avec la CAF`}
+              text={`Projet de la création d'un espace de vie sociale avec un bureau de  permanence multifonction (assistante sociale, écoute jeunes) en partenariat avec la CAF`}
             />
             <CheckedItem
               text={`Obtention d'un agrément CAF pour assurer sa pérennisation`}
@@ -371,7 +371,7 @@ export default [
           <CheckedItem
             text={`Mutualiser les sorties avec les autres centres de loisirs des communes avoisinantes et coordonner les moyens de transport`}
           />
-          <Item text={`Accueil des 11-18ans :`} />
+          <Item text={`Accueil des 11-18 ans :`} />
           <CheckedItem
             text={`Répertorier les diverses solutions  existantes aux alentours (Rambouillet, Auffargis) susceptibles d'accueillir nos jeunes (11-18 ans)`}
           />
@@ -379,7 +379,7 @@ export default [
             text={`Diffuser l'information`}
           />
           <CheckedItem
-            text={`Réflexion sur la mutualisation des moyens de transports`}
+            text={`Réfléchir à la mutualisation des moyens de transports`}
           />
         </List>
         ),

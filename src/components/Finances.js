@@ -11,7 +11,7 @@ export default () => (
     <SolidHighlight>
       <div>
         <Typography variant='h4' sx={{ margin: 5 }}>
-          Finances
+          Frais de campagne
         </Typography>
         <Typography sx={{ margin: 5 }}>
           Le détail de nos comptes de campagne ainsi que les pièces justificatives associées sont à votre disposition.
