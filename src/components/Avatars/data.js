@@ -67,7 +67,7 @@ export default [
   },
   {
     img: avatars.CHRISTELLE,
-    name: 'Christelle SAINT-MEULT',
+    name: 'Christelle SAINT-MLEUX',
     summary: '',
     description: `46 ans, mariée, deux enfants. Ils représentent la 4ème génération de la famille à Saint-Léger-en-Yvelines. C'est tout naturellement que nous avons voulu leur offrir ce cadre de vie idyllique. Après une première expérience de chargée d'affaires, j'ai développé avec mon mari un commerce de fleurs pendant 12 ans sur Paris. Amoureux de notre village, toujours envie d'entreprendre et de vouloir concilier vie professionnelle et personnelle et une envie de proximité et d'être utile aux autres, nous avons créé notre société de services à la personne à Rambouillet. En parallèle, j'ai pu m'épanouir dans le milieu associatif à travers la vice-présidence de l'association des commerçants à Paris 15ème pendant 10 ans, et en tant que trésorière de l'association Saint Léger Tonic pendant 4 ans.
     Aujourd'hui, je souhaite pleinement m'investir et œuvrer pour notre commune qui m'est chère, avec notre équipe dynamique et bienveillante. Plus particulièrement, certains sujets me tiennent à cœur, entre autres, les affaires sociales afin de mettre en place des services de proximité pour nos aîné(e)s et de lutter contre l'isolement.
