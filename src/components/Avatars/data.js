@@ -36,16 +36,17 @@ const avatars = {
   STEPHANE
 };
 
+export const LA_REINE_MERE = {
+  img: avatars.SANDRINE,
+  name: 'Sandrine LE BORGNE',
+  summary: 'Tête de liste',
+  description: `60 ans, mariée, mère de 4 enfants, j'habite à Saint Léger depuis 29 ans. Ingénieure de formation, j'ai travaillé au Centre de Recherche de Gaz de France pendant 5 ans. J'ai pris la décision de m'arrêter de travailler en 1995 pour me consacrer à ma vie de famille.
+  Toujours passionnée par le travail d'équipe, j'ai pris la présidence de l'association Saint Léger Tonic en 2004 (élaboration du dossier de subvention pour la création de la salle de danse du village), puis de l'association Culture et Loisirs en 2010. J'ai pris plaisir à fédérer les personnes autour de projets ambitieux tels que la fête de la pomme, la bourse aux jouets ou le marché de Noël de Saint Léger.
+  J'ai à cœur de rassembler les léodégariens autour de projets pour développer la solidarité au sein de notre village et lui donner le dynamisme qu'il mérite.
+`
+};
+
 export default [
-  {
-    img: avatars.SANDRINE,
-    name: 'Sandrine LE BORGNE',
-    summary: 'Tête de liste',
-    description: `60 ans, mariée, mère de 4 enfants, j'habite à Saint Léger depuis 29 ans. Ingénieure de formation, j'ai travaillé au Centre de Recherche de Gaz de France pendant 5 ans. J'ai pris la décision de m'arrêter de travailler en 1995 pour me consacrer à ma vie de famille.
-    Toujours passionnée par le travail d'équipe, j'ai pris la présidence de l'association Saint Léger Tonic en 2004 (élaboration du dossier de subvention pour la création de la salle de danse du village), puis de l'association Culture et Loisirs en 2010. J'ai pris plaisir à fédérer les personnes autour de projets ambitieux tels que la fête de la pomme, la bourse aux jouets ou le marché de Noël de Saint Léger.
-    J'ai à cœur de rassembler les léodégariens autour de projets pour développer la solidarité au sein de notre village et lui donner le dynamisme qu'il mérite.
-    `
-  },
   {
     img: avatars.ALAIN,
     name: 'Alain ZALMAN',
