@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 
 export default () => (
   <HighlightContainer>
-    <Stripes width='100%' height='200px' />
+    <Stripes width='100%' height='200px' flipped />
     <SolidHighlight>
       <div>
         <Typography variant='h4' sx={{ margin: 5 }}>
