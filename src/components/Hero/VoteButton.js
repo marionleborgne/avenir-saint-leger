@@ -1,6 +1,5 @@
 import { Typography } from '@mui/material';
 import Button from '@mui/material/Button';
-// import RocketIcon from '@mui/icons-material/RocketLaunchTwoTone';
 import CheckIcon from '@mui/icons-material/MarkEmailReadTwoTone';
 
 import pdfLink from '../../assets/vote/instructions.pdf';
